@@ -112,3 +112,7 @@ h4 {
 .col {
     max-height: 33vw;
 }
+
+.col img {
+    max-height: 33vw;
+}
