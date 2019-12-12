@@ -14,6 +14,7 @@
 body {
     font-family: 'Muli', sans-serif;
     margin: 0;
+    background-color: white;
 }
 
 h1 {
@@ -35,7 +36,7 @@ h3 {
     font-weight: 900;
     font-size: 2.8vw;
     letter-spacing: 0.2vw;
-    padding-top: 3vw;
+    padding-top: 1vw;
     padding-bottom: 1.5vw;
 }
 
@@ -49,7 +50,7 @@ h4 {
 
 .blurb {
     font-weight: 300;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     letter-spacing: 0.1vw;
 }
 
@@ -63,14 +64,18 @@ h4 {
 
 #nav, #footer {
     height: 4vw;
-    background-color: #CCB78C;
     text-align: center;
     padding-top: 1vw;
+}
+
+#footer {
+    background-color: #CCB78C;
 }
 
 #nav a {
     font-weight: 700;
     color: black;
+    text-transform: uppercase;
 }
 
 #nav .active {
@@ -78,31 +83,27 @@ h4 {
 }
 
 #home {
-    background-color: white;
-    height: 35vw;
+    height: 60vw;
     padding-left: 15%;
 }
 
 #form {
-    background-color: white;
     height: 20vw;
 }
 
 #books {
-    background-color: white;
-    height: 65vw;
+    height: 80vw;
+    padding-left: 15%;
 }
 
 #content .col, #books .col {
     text-align: left;
     vertical-align: middle;
     line-height: 2vw;
-    padding: 2vw;
 }
 
 #content .row {
-    max-height: 33vw;
-    background-color: white;
+    max-height: 45vw;
 }
 
 #books h4 {
@@ -110,9 +111,9 @@ h4 {
 }
 
 .col {
-    max-height: 33vw;
+    max-height: 45vw;
 }
 
 .col img {
-    max-height: 33vw;
+    max-height: 38vw;
 }
