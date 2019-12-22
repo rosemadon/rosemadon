@@ -91,7 +91,17 @@ h4 {
     height: 20vw;
     padding-left: 25%;
     padding-top: 2%;
+    max-width: 75vw;
     
+}
+
+#form b{
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+
+.form-control {
+    max-width: 95%;
 }
 
 .formdesc {
@@ -119,9 +129,10 @@ h4 {
     margin-top: -0.5vw;
 }
 
+
 #bio {
     height: 21vw;
-    padding-left: 33%;
+    padding-left: 25%;
     padding-top: 2%;
     text-align: justify;
     vertical-align: middle;
