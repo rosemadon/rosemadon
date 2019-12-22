@@ -89,11 +89,46 @@ h4 {
 
 #form {
     height: 20vw;
+    padding-left: 25%;
+    padding-top: 2%;
+    
+}
+
+.formdesc {
+    line-height: 2vw;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+
+.amazonembed {
+    padding-top:2%;
 }
 
 #books {
     height: 80vw;
     padding-left: 15%;
+}
+
+.ku {
+    font-weight:700;
+    font-size: 1.3vw;
+    letter-spacing: 0.05vw;
+}
+
+.ku img {
+    margin-top: -0.5vw;
+}
+
+#bio {
+    height: 21vw;
+    padding-left: 33%;
+    padding-top: 2%;
+    text-align: justify;
+    vertical-align: middle;
+    line-height: 2vw;
+    font-weight: 300;
+    font-size: 1.1vw;
+    letter-spacing: 0.1vw;
 }
 
 #content .col, #books .col {

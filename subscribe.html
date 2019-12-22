@@ -4,9 +4,10 @@
     <head>
     
     <meta charset="utf-8">
-    <title>ROSE MADON - FANTASY, SCIENCE FICTION & ROMANCE AUTHOR</title>
+    <title>Rose Madon, Author</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <script language="JavaScript" src="gen_validatorv31.js" type="text/javascript"></script>
     </head>
     
     <body>
@@ -27,16 +28,22 @@
             </div>
             
             <div id="content" class="row">
-            <div id="form" class="col">
-            <form>
+            <div id="form" class="col-12 col-lg-10">
+                
+                <span class="formdesc">Subscribe to be the first to hear about new releases, teaser excerpts and upcoming sales!</span>
+
+            <form method="POST" name="contactform" action="contact-form-handler.php">
             
                 <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="sexyrichvampire@fancyparty.com">
-                <small id="emailHelp" class="form-text text-muted">Your email will ONLY be used for updates on novels by Rose Madon.</small>
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="youremail@somewhere.com">
+                <small id="emailHelp" class="form-text text-muted">Your email will ONLY be used for updates on novels by Rose Madon. By hitting "SUBMIT", you are agreeing to receive promotional emails from Rose Madon about sales and new book releases. You can opt out at any time by replying to these emails and requesting that you be unsubscribed.</small>
+                    
                 </div>
                 
-                  <button type="submit" class="btn btn-dark">Submit</button>
+
+                  <button type="submit" value="Submit" class="btn btn-dark">Submit</button><br>
+                    
                 
             </form>
             </div>
@@ -53,6 +60,14 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script language="JavaScript">
+            // Code for validating the form
+            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+            // for details
+            var frmvalidator  = new Validator("contactform");
+            frmvalidator.addValidation("email","req","Please provide your email"); 
+            frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+            </script>
         
     </body>
     
