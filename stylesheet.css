@@ -188,9 +188,8 @@ h4 {
     }
     
     #content .row {
-        
-        padding-right: 20%;
-        padding-left: auto;
+        padding-right: 5%;
+        padding-left: 5%;
     }
     
     .blurb {
@@ -226,6 +225,11 @@ h4 {
     height: 300vw;
     }
     
+    #books .row, #books .col {
+        padding-right: 5%;
+        margin-left: -20%;
+    }
+    
     #content .row {
     max-height: 160vw;
 }
@@ -254,6 +258,13 @@ h4 {
     line-height: 5vw;
     font-weight: 300;
     font-size: 3vw;
+}
+    
+    .ku {
+    font-weight:700;
+    font-size: 3vw;
+    letter-spacing: 0.05vw;
+    color: black;
 }
     
 }
