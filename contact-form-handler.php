@@ -4,9 +4,7 @@ ini_set('display_errors', 1);
 error_reporting(-1);
 $errors = '';
 $myemail = 'rosemadonauthor@gmail.com';
-if( 
-   empty($_POST['email']) || 
-   )
+if( empty($_POST['email']))
 {
     $errors .= "\n Error: Email address required";
 }
