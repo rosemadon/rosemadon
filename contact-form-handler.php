@@ -27,8 +27,7 @@ if( empty($errors))
 	$to = $myemail; 
 	$email_subject = "New Rose Madon Author subscription: $email_address";
 	$email_body = "The email address $email_address has requested to be added to your fun content mailing list. If something in this email looks wrong, go bother your future wife. Here is a randomly selected message from her: $randomlove"; 
-	
-	$headers = "From: $myemail\n"; 
+	 
 	$headers .= "Reply-To: $email_address";
 	
 	mail($to,$email_subject,$email_body,$headers);
