@@ -123,10 +123,16 @@ h4 {
     font-weight:700;
     font-size: 1.3vw;
     letter-spacing: 0.05vw;
+    color: black;
 }
 
 .ku img {
     margin-top: -0.5vw;
+}
+
+.ku:hover {
+    color: #FC9902;
+    text-decoration: none;
 }
 
 
