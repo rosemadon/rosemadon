@@ -254,7 +254,7 @@ h4 {
     letter-spacing: 0.1vw;
 }
     
-    .formdesc {
+    .formdesc, .form-text {
     line-height: 5vw;
     font-weight: 300;
     font-size: 3vw;
