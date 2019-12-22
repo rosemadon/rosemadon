@@ -169,6 +169,10 @@ h4 {
     max-height: 38vw;
 }
 
+.bookdivider {
+    height: 45vw;
+}
+
 @media (max-width: 991.98px) { 
     
     #nav {
@@ -228,6 +232,28 @@ h4 {
     
     #form {
     height: 80vw;
+    padding-left: 5%;
+    padding-top: 2%;
+    max-width: 100%;
+}
+    
+    #form b{
+    font-weight: 700;
+    font-size: 3vw;
+}
+    
+    #bio {
+    padding-left: 5%;
+    line-height: 5vw;
+    font-weight: 300;
+    font-size: 3vw;
+    letter-spacing: 0.1vw;
+}
+    
+    .formdesc {
+    line-height: 5vw;
+    font-weight: 300;
+    font-size: 3vw;
 }
     
 }
