@@ -1,8 +1,7 @@
 <?php 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 $errors = '';
-$myemail = 'rosemadonauthor@gmail.com
-';
+$myemail = 'rosemadonauthor@gmail.com';
 if( 
    empty($_POST['email']) || 
    )
@@ -23,8 +22,7 @@ if( empty($errors))
 {
 	$to = $myemail; 
 	$email_subject = "New Rose Madon Author subscription: $email_address";
-	$email_body = "The email address $email_address has requested to be added to your sexy lesbian porno updates mailing list.".
-	"If something in this email looks wrong, go yell at Denzelle."; 
+	$email_body = "The email address $email_address has requested to be added to your sexy lesbian porno updates mailing list. If something in this email looks wrong, go yell at Denzelle."; 
 	
 	$headers = "From: $myemail\n"; 
 	$headers .= "Reply-To: $email_address";
